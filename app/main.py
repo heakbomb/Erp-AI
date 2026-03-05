@@ -9,3 +9,4 @@ def health():
 @app.get("/")
 def root():
     return {"message": "AI server running"}
+

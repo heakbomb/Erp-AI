@@ -1,0 +1,32 @@
+{
+  "table": "ml_store_month_features",
+  "target": "y_next_profit",
+  "rows_total": 10,
+  "rows_train": 5,
+  "rows_test": 5,
+  "split": {
+    "mode": "time",
+    "test_months": 1,
+    "test_month_list": [
+      "2025-12"
+    ]
+  },
+  "cat_cols": [
+    "sigungu_cd_nm",
+    "industry"
+  ],
+  "num_cols": [
+    "sales_amount",
+    "labor_amount",
+    "labor_rate",
+    "menu_count",
+    "avg_menu_price",
+    "price_gap_rate",
+    "near_store_count",
+    "area_avg_sales",
+    "cogs_rate",
+    "profit_amount",
+    "profit_rate"
+  ],
+  "created_at": "20260120_130805"
+}
